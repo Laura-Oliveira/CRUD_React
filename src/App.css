@@ -1,38 +1,68 @@
-.App {
+.App 
+{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html
+{
+  background-color: #E0E0E0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form_register_user
+{
+  display: flex;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div_form_register_user
+{
   display: flex;
   flex-direction: column;
+  margin-top: 8.5em;
+  width: 25%;
+  border-radius: 13px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding: 2%;
+  font-size: 13pt;
+  background-color: #3949AB;
+  opacity: 1;
+}
+
+#form_register_user_legend
+{
+    margin-bottom: 1em;
+    color: #F5F5F5;
+}
+
+.input
+{
+  display: flex;
+  justify-content: right;
+  height: 2em;
+  color: black;
+  margin-top: 2%;
+  font-size: 12pt;
+  background-color: #C5CAE9;
+  border-radius: 8px;
+}
+
+#btn_form_register_user
+{
+  justify-content: right;
+}
+
+#btn_form_register_user_submit
+{
+  width: 10em;
+  height: 3.5em;
+  border-radius: 10px;
+  border-style: none;
+  background-color:#5C6BC0;
   color: white;
+  font-size: 12pt;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn_form_register_user_submit:hover
+{
+  background-color: #9FA8DA;
+  border-radius: 10px;
 }
